@@ -295,7 +295,7 @@ export default function Home() {
       <header className="site-header">
         <div className="nav-shell container-site">
           <a className="brand" href="#top" aria-label="العودة إلى بداية الصفحة">
-            <Image className="brand-mark brand-mark-image" src="/brand-identity-mohammed-labs.png" alt="" width={34} height={34} priority />
+            <Image className="brand-mark brand-mark-image" src="/brand-identity-mohammed-labs.png" alt="هوية MOHAMMED LABS" width={34} height={34} priority unoptimized />
             <span className="brand-copy">
               <strong>MOHAMMED LABS</strong>
               <small>PRODUCT STUDIO</small>
@@ -360,9 +360,12 @@ export default function Home() {
                 <div className="window-dots"><i /><i /><i /></div>
                 <span className="visual-status"><b /> LIVE BUILD</span>
               </div>
+              <div className="visual-brand-art" aria-hidden="true">
+                <Image src="/brand-identity-mohammed-labs.png" alt="" width={360} height={360} priority unoptimized />
+              </div>
               <div className="visual-content">
                 <div className="visual-identity">
-                  <Image src="/brand-identity-mohammed-labs.png" alt="" width={42} height={42} />
+                  <Image src="/brand-identity-mohammed-labs.png" alt="هوية MOHAMMED LABS" width={42} height={42} unoptimized />
                   <div>
                     <strong>MOHAMMED LABS</strong>
                     <span>AI PRODUCT STUDIO</span>
@@ -376,7 +379,7 @@ export default function Home() {
                   <div><span>سرعة</span><strong>4.8x</strong><i className="metric-bar"><b style={{ width: "76%" }} /></i></div>
                 </div>
                 <div className="visual-footer">
-                  <Image className="mini-avatar" src="/brand-identity-mohammed-labs.png" alt="" width={21} height={21} />
+                  <Image className="mini-avatar" src="/brand-identity-mohammed-labs.png" alt="هوية MOHAMMED LABS" width={21} height={21} unoptimized />
                   <span>من الفكرة إلى نسخة قابلة للبيع</span>
                   <Icon name="arrow" size={17} />
                 </div>
@@ -523,7 +526,7 @@ export default function Home() {
       </section>
 
       <footer className="site-footer container-site">
-        <div className="footer-brand"><Image className="brand-mark small brand-mark-image" src="/brand-identity-mohammed-labs.png" alt="" width={27} height={27} /><span>MOHAMMED LABS / PRODUCT STUDIO</span></div>
+        <div className="footer-brand"><Image className="brand-mark small brand-mark-image" src="/brand-identity-mohammed-labs.png" alt="هوية MOHAMMED LABS" width={27} height={27} unoptimized /><span>MOHAMMED LABS / PRODUCT STUDIO</span></div>
         <p>منتجات رقمية عربية، مصممة لتكبر.</p>
         <a href="#top" aria-label="العودة إلى أعلى الصفحة"><Icon name="arrow" size={16} /></a>
       </footer>
@@ -536,3 +539,4 @@ export default function Home() {
     </main>
   );
 }
+
