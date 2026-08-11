@@ -446,6 +446,29 @@ button {
   pointer-events: none;
 }
 
+.visual-brand-art {
+  position: absolute;
+  z-index: 1;
+  top: 3.2rem;
+  right: -3.5rem;
+  width: min(62%, 300px);
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 50%;
+  opacity: 0.42;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  transform: rotate(-8deg);
+  filter: saturate(1.15) contrast(1.08);
+}
+
+.visual-brand-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .visual-topbar {
   position: relative;
   z-index: 2;
@@ -1543,3 +1566,4 @@ button {
     transition-duration: 0.01ms !important;
   }
 }
+
